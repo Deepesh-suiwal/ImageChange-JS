@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change_Image</title>
+</head>
+
+<style>
+
+#box{
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+#image{
+    height: 250px;
+    width: 250px;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+}
+.button button{
+    margin: 10px;
+    padding: 10px;
+    color: #000;
+    background-color: aqua;
+}
+</style>
+<body class="button">
+    <div id="box">
+    
+        <img src="https://media.istockphoto.com/id/589538028/photo/manali-town.jpg?s=2048x2048&w=is&k=20&c=16NUhEO0f1m0danaOsxRIU4x9iCHshjT2keQtxJ6zJ0="
+            alt="number" id="image">
+
+</div>
+<button onclick="Change()">Change_image</button>
+
+
+<script>
+
+function Change(){
+        let a=document.getElementById("image").src = "https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg";
+    }
+    
+</script>
+</body>
+</html>
